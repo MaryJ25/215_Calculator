@@ -19,5 +19,5 @@ setuptools.setup(
     ],
     package_dir={"": "calculator"},
     packages=setuptools.find_packages(where="calculator"),
-    python_requires=">=3.8",
+    python_requires=">=3.7",
 )
