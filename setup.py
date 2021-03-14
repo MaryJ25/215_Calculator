@@ -18,6 +18,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_dir={"": "calculator"},
-    packages=setuptools.find_packages(where=("calculator", "tests")),
+    packages=setuptools.find_packages(where="calculator"),
     python_requires=">=3.8",
 )
