@@ -1,9 +1,9 @@
 FROM python:3.8-buster
 
-WORKDIR /usr/src/app
+COPY . /calculator
 
-RUN pip install git+https://github.com/MaryJ25/215_Calculator/
+WORKDIR /calculator
 
-COPY ./docker/app.py ./
+RUN pip install git+https://github.com/MaryJ25/Calculator/
 
-CMD ["python", "app.py"]
+CMD python ./example.py
