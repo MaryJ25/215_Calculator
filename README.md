@@ -1,2 +1,2 @@
-# 215_Calculator
+# Calculator
 Calculator package made as an exercise in a Data Science course
