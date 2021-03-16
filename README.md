@@ -21,9 +21,15 @@ The package allows simple calculations to be made.
 <!-- INSTALLATION -->
 ## Installation
 
-To install use ```python pip install git+https://github.com/MaryJ25/Calculator.git```
+To install use 
+```python 
+pip install git+https://github.com/MaryJ25/Calculator.git
+```
 
-Then to import it use ```python from calculator.calculator import Calculator```
+Then to import it use 
+```python 
+from calculator.calculator import Calculator
+```
 
 <!-- USAGE EXAMPLES -->
 ## Usage Example
