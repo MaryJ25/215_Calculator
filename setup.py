@@ -12,7 +12,6 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "calculator"},
-    packages=setuptools.find_packages(where="calculator"),
+    setuptools.find_packages(),
     python_requires=">=3.7",
 )
