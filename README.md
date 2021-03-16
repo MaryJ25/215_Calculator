@@ -37,13 +37,21 @@ c.get_current() #output 4
 <!-- FUNCTIONS -->
 ## Available Functions
 `reset()` - resets the value
+
 `start(10)` - sets the value to 10
+
 `add(10)` - adds 10 to current value
+
 `subtract(10)` - subtracts 10 from current value
+
 `multiply(10)` - multiplies current value by 10
+
 `divide(10)` - divides current value by 10
+
 `power(10)` - exponentiates current value to the 10th power
+
 `root(10)` - gets the 10th root from current value
+
 `get_current()` - returns current value
 
 <!-- LICENSE -->
